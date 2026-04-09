@@ -1,5 +1,4 @@
 [build]
-  base = "api-performance-monitor/frontend"
   publish = "build"
   command = "npm run build"
 

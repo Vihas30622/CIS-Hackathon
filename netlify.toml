@@ -1,0 +1,9 @@
+[build]
+  base = "api-performance-monitor/frontend"
+  publish = "build"
+  command = "npm --prefix api-performance-monitor/frontend run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
